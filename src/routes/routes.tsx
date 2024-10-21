@@ -1,4 +1,5 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { Dashboard } from '../components/Dashboard';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/dashboard',
-    element: <div>Dashboard</div>,
+    element: <Dashboard />,
   },
 ]);
 
